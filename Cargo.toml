@@ -1,0 +1,18 @@
+[package]
+name = "calr"
+version = "0.1.0"
+edition = "2021"
+authors = ["takeweb takeweb@mac.com"]
+description = "cal command wrtten by Rust"
+
+[dependencies]
+anyhow = "1.0.93"
+ansi_term = "0.12.1"
+chrono = "0.4.38"
+clap = { version = "4.5.21", features = ["derive"] }
+itertools = "0.13.0"
+
+[dev-dependencies]
+assert_cmd = "2.0.16"
+predicates = "3.1.2"
+pretty_assertions = "1.4.1"
